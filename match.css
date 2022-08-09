@@ -91,7 +91,7 @@ h1{
 
 a{
     padding: 12px 20px 0px 20px;
-    background-color: white;
+    background-color: red;
     border-radius: 5px;
     margin-top: 20px;
     font-size: 12px;
@@ -100,8 +100,7 @@ a{
     color: black;
 }
 
-p.span{
-    background-color: red;
+
 }
 
 .fixture{
