@@ -4,6 +4,7 @@
     font-family: 'poppins', 'sans-serif';
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 main{
@@ -191,5 +192,327 @@ i.fa.fa-clock{
     color: #B9B9B9;
 }
 
+/*Responsive Layout For Tab */
 
+@media screen and (min-width: 481px) and (max-width: 768px) {
     
+    section.banner {
+    
+        background-color: black;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin-left: 0px;
+        height: 237px;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 15px;
+        font-weight: 700;
+        margin-top: 61px;
+      }
+
+    div.right img{
+        width: 123px;
+        height: 241px;
+    }
+
+    .left {
+        margin-left: 46px;
+        color: white;
+        width: 50%;
+        margin-top: -60px;
+      }
+
+      div.right img {
+        width: 123px;
+        height: 200px;
+        width: 100%;
+        top: 22px;
+        position: relative;
+        right: 10px;
+      }
+
+      .left p {
+        font-size: 8px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+
+}
+
+.left a {
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 1px;
+    font-size: 10px;
+    
+}
+
+
+.match-update{
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+  }
+
+  div.menu {
+    padding: 15px 25px 25px 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: white;
+    height: 30px;
+    margin-left: 15px;
+  }
+
+  div.menu p.span {
+    background-color: red;
+    border: none;
+    padding: 13px 40px 25px 45px;
+    padding: 10px 40px 25px 40px;
+    width: 38%;
+  }
+  .menu p {
+    padding: 10px 40px 25px 40px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 9px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 0px;
+    margin-right: 10px;
+    width: 35%;
+  }
+
+.menu a {
+    padding: 10px 7px 25px 5px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 3px;
+    font-size: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: -1px;
+    margin-right: 10px;
+    width: 41%;
+  }
+  
+
+.fixture {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 0px;
+    margin-top: 60px;
+  }
+
+  .brief {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: -25px;
+  }
+
+  .brief p {
+    margin-left: -60px;
+    color: #161616B2;
+  }
+
+
+  .footer {
+    height: 35vh;
+    background-color: black;
+    color: white;
+  }
+
+  .footer h1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+  }
+
+  .footer hr {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    color: rgba(255, 255, 255, 0.1);
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 7px;
+    width: 100%;
+    margin-left: 0px;
+    color: #B9B9B9;
+  }
+
+}
+
+/*Responsive layout for mobile device*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    section.banner{
+        display: block;
+    }
+
+    h1{
+        font-size: 22px;
+        font-weight: 700;
+        padding-top: 20px;
+        margin-left: -40px;
+      }
+
+      .left p {
+        font-size: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 100%;
+        display: block;
+        margin-left: -37px;
+      }
+
+      .left a {
+        text-decoration: none;
+        padding: 4px 10px 4px 10px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        margin-left: -15px;
+        font-size: 8px;
+      }
+
+    .right img{
+        height: 220px;
+        margin-top: 9px;
+    }
+
+    .match-update{
+        display: block;
+    }
+
+    .menu{
+        background-color: white;
+        color: black;
+        padding: 15px 20px 25px 20px;
+        display: grid;
+        grid-template-rows: repeat(1fr, 1);
+        row-gap: 10px;
+        text-align: center;
+        height: 212px;
+        border-radius: 10px;
+        width: 80%;
+        margin-left: 30px;
+        margin-top: -128px;
+        margin-bottom: 50px;
+      }
+
+      .menu p {
+        padding: 10px 25px 10px 25px;
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 20px;
+        font-size: 10px;
+        align-items: center;
+        border: 1px solid #E8E8E8;
+        width: 100%;
+      }
+
+      .menu a{
+        border: 1px solid #E8E8E8;
+        font-size: 10px;
+        width: 100%;
+        padding: 10px 25px 10px 25px;
+      }
+
+      p.span{
+        background-color: red;
+        border: none;
+      }
+
+      .fixture {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        margin-left: 0px;
+      }
+
+      .links {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        width: 100%;
+        margin-left: 0px;
+        color: #B9B9B9;
+      }
+
+      .footer {
+        height: 300px;
+        background-color: black;
+        color: white;
+        padding-bottom: 10px;
+      }
+
+      .footer h1 {
+        position: relative;
+        top: 40px;
+        text-align: center;
+        margin-left: -7px;
+      }
+
+      .footer hr {
+        width: 80%;
+        margin-left: auto;
+        margin-top: 50px;
+        color: rgba(255, 255, 255, 0.1);
+        margin-right: auto;
+      }
+
+      .links {
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        font-size: 7px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #B9B9B9;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .links p{
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+}
